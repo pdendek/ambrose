@@ -1,9 +1,0 @@
-*.iml
-*.iws
-*.log
-*.releaseBackup
-.classpath
-.idea
-.project
-.settings
-target

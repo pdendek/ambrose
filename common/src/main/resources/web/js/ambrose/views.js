@@ -13,14 +13,16 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-package com.twitter.ambrose.service;
-
-import java.util.Collection;
 
 /**
- * Interface to transform a list of DAGNodes
- * @author billg
+ * Depends on all built-in view modules and returns Views object.
  */
-public interface DAGTransformer {
-  public Collection<DAGNode> transform(Collection<DAGNode> nodes);
-}
+define([
+  './views/core',
+  './views/progress-bar',
+  './views/table',
+  './views/chord',
+  './views/graph',
+], function(Views) {
+  return Views;
+});

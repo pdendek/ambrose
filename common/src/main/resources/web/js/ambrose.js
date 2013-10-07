@@ -13,14 +13,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-package com.twitter.ambrose.service;
-
-import java.util.Collection;
 
 /**
- * Interface to transform a list of DAGNodes
- * @author billg
+ * Main entry point. Depends on all built-in modules and returns core Ambrose object.
  */
-public interface DAGTransformer {
-  public Collection<DAGNode> transform(Collection<DAGNode> nodes);
-}
+define([
+  'ambrose/core',
+  'ambrose/client',
+  'ambrose/workflow',
+  'ambrose/views',
+], function(Ambrose) {
+  return Ambrose;
+});

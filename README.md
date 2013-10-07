@@ -24,10 +24,10 @@ Follow [@Ambrose](https://twitter.com/ambrose) on Twitter to stay in touch!
 ## Supported runtimes
 
 * [Pig](http://pig.apache.org/) - See [pig/README.md](https://github.com/twitter/ambrose/blob/master/pig/README.md)
-* [Hive](http://hive.apache.org/) See [hive/README.md](https://github.com/twitter/ambrose/blob/master/hive/README.md)
 * [Cascading](http://www.cascading.org/) - future work
 * [Scalding](https://github.com/twitter/scalding) - future work
 * [Cascalog](https://github.com/nathanmarz/cascalog) - future work
+* [Hive](http://hive.apache.org/) - future work
 
 ## Examples
 
@@ -89,7 +89,7 @@ export AMBROSE_PORT=4567
 
 ## Maven repository
 
-Ambrose releases can be found on Maven under [com.twitter.ambrose](http://repo1.maven.org/maven2/com/twitter/ambrose).
+An initial Ambrose release will be pushed to Maven Central soon.
 
 ## How to contribute
 
@@ -122,7 +122,6 @@ For more information on semantic versioning, please visit http://semver.org/.
 
 * Bill Graham ([@billgraham](https://twitter.com/billgraham))
 * Andy Schlaikjer ([@sagemintblue](https://twitter.com/sagemintblue))
-* Gary Helmling ([@gario](https://twitter.com/gario))
 * Nicolas Belmonte ([@philogb](https://twitter.com/philogb))
 
 ## License
